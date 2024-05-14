@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+pro.container {
+    position: relative;
+}
+.container .content {
+    position: absolute;
+    font-family: 'Montserrat';
+    background-image: url("../../../images/map22.png");
+    background-size:cover;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    display: block;
+    top: 0;
+    left: 0;
+}
+
+.container .image {
+    position: sticky;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    z-index: 0;
+    top: 0;
+    left: 0;
+}
+
+.table{
+    
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    bottom: 10%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+.bleu{
+    text-align: left;
+    padding-left: 10%;
+    color: #4F8EF2;
+    font-size: 18px;
+    
+}
+
+.blanc{
+    text-align: left;
+    border-bottom: 2px solid #EBEBEB;
+    font-size: 18px;
+    width: 40%;
+    
+}
+.blanc1{
+    text-align: left;
+    border: none;
+    border-bottom: 2px solid #EBEBEB;
+    font-size: 20px;
+    width: 40%;
+    bottom: 20px;
+   
+}
+
+.alignement{
+    display: sticky;
+    position: relative;
+    justify-self: right;
+    height: 55%;
+
+
+}
+
+.bouton2{
+    position: absolute;
+    top:50%;
+    left:50%;
+    height: 50px;
+    width: 200px;
+    border-radius: 32px;
+    background-color: #F6AC0F;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    text-align: center;
+    border: grey;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 960px) {
+    .table{
+    
+        width: 60%;
+        height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 45%;
+        transform: translate(-50%, -50%);
+    }
+
+    .blanc{
+        text-align: left;
+        border-bottom: 2px solid #EBEBEB;
+        font-size: 15px;
+        padding-left: 15%;
+        width: 40%;
+        
+    }
+
+    .bleu{
+        text-align: left;
+        padding-right: 20%;
+        color: #4F8EF2;
+        font-size: 10px;
+        
+    }
+    .blanc1{
+        text-align: left;
+        border: none;
+        border-bottom: 2px solid #EBEBEB;
+        font-size: 10px;
+        width: 40%;
+        bottom: 10px;
+
+       
+    }
+
+    .bouton2{
+        position: absolute;
+        top:100%;
+        left:25%;
+        height: 40px;
+        width: 180px;
+        border-radius: 32px;
+        background-color: #F6AC0F;
+        font-family: 'Montserrat';
+        font-size: 12px;
+        text-align: center;
+        border: grey;
+        cursor: pointer;
+    }
+  }

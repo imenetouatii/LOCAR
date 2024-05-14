@@ -1,0 +1,97 @@
+.car .wraper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.car .wraper .item {
+  min-width: 280px;
+  height: 115px;
+  line-height: 26px;
+  background-color: #fff;
+  margin-right: 150px;
+  margin-top: 18px;
+  border-radius: 25px;
+  list-style: none;
+  max-width: 300px;
+  margin-left: 8px;
+  box-shadow: 2px 3px 6px #a7a7a7;
+}
+
+.car .wraper .item .h10 {
+  font-size: 13px;
+  color: #4f8ef2;
+  margin-left: -10px;
+}
+.car .wraper .item .h11 {
+  margin-left: 10px;
+  font-size: 13px;
+  color: #a2a1a1;
+}
+.car .wraper .item .li {
+  margin-top: 0px;
+}
+.car .wraper .item .lii {
+  margin-top: 0px;
+}
+.car .wraper .car {
+  margin-top: -60px;
+  margin-left: 190px;
+}
+.car .wraper .Selc {
+  position: relative;
+
+  margin-top: -80px;
+  margin-left: -230px;
+}
+.car .wraper .Selc:hover {
+  cursor: pointer;
+}
+
+.car .wraper .row {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.car .wraper::-webkit-scrollbar {
+  width: 2px;
+  height: 10px;
+}
+
+.car .wraper::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.car .wraper::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+.car .wraper::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.wraper .supp {
+  margin-left: 59%;
+  margin-top: -35%;
+  border: none;
+  background: none;
+  cursor : pointer;
+  font-size: 33px;
+  color :#F7554D
+
+}
+
+.wraper .suppp {
+  margin-left: 54%;
+  margin-top: -34%;
+  border: none;
+  background: none;
+  cursor : pointer;
+  font-size: 33px;
+  color :white;
+
+}

@@ -1,0 +1,72 @@
+.carrs .container {
+  position: absolute;
+  background-image: url("../../../images/map22.png");
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  display: block;
+  top: 0;
+  left: 0;
+  }
+  /*.carrs {
+    position: absolute;
+    background-image: url("../../../images/map22.png");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    display: block;
+    top: 0;
+    left: 0;
+  }*/
+
+  .carrs .fond {
+    display: block;
+    position: absolute;
+    top: 0;
+    background-color: white;
+    height: 100%;
+    width: 28%;
+
+  }
+  .carrs .container .menu {
+    flex: 10%;
+    margin-top: 25%; 
+    margin-left: 3%;
+  }
+  .carrs .container .voitures {
+    flex: 90%;
+    margin-left: 25%;
+    margin-top: 10%;
+  }
+  .carrs .container .image {
+    position: sticky;
+    width: 100%;
+    height: 100vh;
+    display: block;
+    z-index: 0;
+    top: 0;
+    left: 0;
+  }
+  
+  .carrs .bleu {
+    text-align: left;
+    padding-left: 10%;
+    color: #4f8ef2;
+    font-size: 20px;
+  }
+  
+  .carrs .blanc {
+    text-align: left;
+    border-bottom: 2px solid #ebebeb;
+    font-size: 20px;
+    width: 40%;
+  }
+  
+  .carrs .alignement {
+    display: sticky;
+    position: relative;
+    justify-self: center;
+    height: 55%;
+  }

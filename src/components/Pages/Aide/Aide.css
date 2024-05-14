@@ -1,0 +1,117 @@
+.container-fluid {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px;
+  }
+  
+  .ant-layout {
+    background: #fff;
+  }
+  
+  .mainLayout .ant-layout-header {
+    background: #f8f8f8;
+    padding: 0;
+    height: auto;
+    line-height: 1.6;
+  }
+  
+  .paragaide {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .bgGray {
+    background: #fafafa;
+  }
+  
+  /* 
+      title holder
+      ------------
+      */
+  .titleHolder {
+    text-align: center;
+    position: relative;
+    padding: 0 0 20px;
+    margin: 0 0 40px;
+  }
+  
+  .titleHolder:after {
+    transform: translateX(-50%);
+    content: "";
+    background: #1890ff;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    height: 3px;
+    width: 50px;
+  }
+  
+  .titleHolder h2 {
+    font-size: 28px;
+    margin: 0;
+  }
+  
+  /* 
+      block
+      ----- 
+      */
+  .block {
+    padding: 60px 0;
+    border-bottom: 1px solid #d9d9d9;
+  }
+  
+  /* 
+      faqs
+      ----
+      */
+  .faqBlock .ant-collapse {
+    margin: 0 0 40px;
+  }
+  
+  .faqBlock .quickSupport {
+    text-align: center;
+    max-width: 740px;
+    margin: auto;
+  }
+  
+  .faqBlock .fas {
+    margin: 0 10px 0 0;
+  }
+  
+  /* 
+      contact
+      -------
+      */
+  .contactBlock .ant-form {
+    max-width: 640px;
+    margin: auto;
+  }
+  
+  .contactBlock .ant-form textarea {
+    min-height: 120px;
+    height: 120px;
+  }
+  
+  /* 
+      responsive
+      ----------
+      */
+  @media only screen and (max-width: 991px) {
+    .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
+      transform: scale(1.14);
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
+      transform: scale(1);
+    }
+  
+    .mobileVisible {
+      display: block;
+    }
+  
+    .mobileHidden {
+      display: none;
+    }
+  }

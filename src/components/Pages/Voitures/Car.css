@@ -1,0 +1,134 @@
+.carrr .wraperrr {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    overflow-x: auto;
+    height: 220%;
+    width: 60%;  
+    background-color: #fff;
+    margin-top: 17%;
+    margin-right: 150px;
+    margin-left: 140px;
+    border-radius: 25px;
+    box-shadow: 2px 3px 6px #a7a7a7;
+  
+
+  }
+  
+   .item {
+    min-width: 240px;
+    line-height: 26px;
+    background-color: #fff; 
+    margin-right: 150px;
+    margin-top: 25px; 
+    list-style: none; 
+    max-width: 240px;
+    margin-left: 8px;
+  }
+  
+  .carrr .wraperrr .item .h10 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    color: #4f8ef2;
+    margin-left: -80px;
+    align-items: center;
+  }
+
+  .carrr .wraperrr .item .h12 {
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    color: #4f8ef2;
+    margin-left: -89px;
+    align-items: center;
+  }
+
+  .carrr .wraperrr .item .h11 {
+    margin-left: 40px;
+    font-size: 14px;
+    color: #a2a1a1;
+  }
+  .carrr .wraperrr .item .li {
+    margin-top: 12px;
+  }
+  .carrr .wraperrr .item .lii {
+    margin-top: 12px;
+  }
+  .carrr .wraperrr .carrr {
+   
+    margin-top: -60%;
+    margin-right: -60%;
+  }
+  .carrr .wraperrr .Selc {
+    position: relative;
+  
+    margin-top: -80px;
+    margin-left: -230px;
+  }
+  .carrr .wraperrr .Selc:hover {
+    cursor: pointer;
+  }
+  .carrr .wraperrr .row {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-left: 80%;
+    margin-top: -25%;
+  }
+  
+  .carrr .wraperrr::-webkit-scrollbar {
+    width: 2px;
+    height: 10px;
+  }
+  
+  .carrr .wraperrr::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  .carrr .wraperrr::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  .carrr .wraperrr::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  .input {
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-bottom: solid #707070 1px;
+      font-size: 14px;
+      color: #A19D9D;
+  }
+
+  .input:focus{
+    outline:none;
+
+  }
+
+  .slc{
+    display: flex;
+    justify-content: center;
+    position : relative;
+    align-items: center;
+    height: 40px;
+    width: 130px;
+    border-radius: 15px;
+    background: linear-gradient(60deg, rgba(105,173,250,1) 0%, rgba(64,124,238,1) 100%);
+    font-size: 17px;
+    color: white;
+    border: none;
+    cursor : pointer;
+    margin-top : 10%;
+    margin-left : 37%;
+  }
+
+  .textbut{
+     margin-right: 9px;
+
+  }
+
+  .divbtn{height: 65px;}

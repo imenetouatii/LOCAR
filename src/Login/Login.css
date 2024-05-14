@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+
+ body {
+  background-color: #d8e2f0;
+ }
+
+.Containerloginpage {
+    font-family: 'Montserrat';
+    background-color: #ffff;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 32px;
+
+    width:75%; 
+    height: 82%;
+    position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+    display: inline-block;
+   
+  }
+
+  .formeloginpage{
+    height: 100.4%;
+    width: 40%;
+    float: left;
+  }
+
+  .greetloginpage {
+      position: absolute;
+      top: 5%;
+      left:6%;
+      font-family: 'Montserrat';
+      font-size: 70px;
+      font: 400;
+      color: white;
+  }
+
+  .greet1loginpage {
+    position: absolute;
+    top: 20%;
+    left:6%;
+    font-family: 'Montserrat';
+    font-size: 60px;
+    font: 400;
+    color: white;
+}
+
+.greet2loginpage {
+    position: absolute;
+    top: 30%;
+    left:6%;
+    font-family: 'Montserrat';
+    font-size: 60px;
+    font: 400;
+    color: white;
+}
+
+.text1loginpage{
+    position: absolute;
+    top: 60%;
+    left:6%;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: white;
+}
+
+.text2loginpage{
+    position: absolute;
+    top: 65%;
+    left:6%;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font: 400;
+    color: white;
+}
+
+.titleloginpage {
+    font-family: 'Montserrat';
+    position: absolute;
+    top:10%;
+    left:56%;
+    font-size: 39px;
+}
+
+.textloginpage{
+    font-family: 'Montserrat';
+    position: absolute;
+    top:27%;
+    left:49%;
+    font-size: 15px;
+}
+
+.inputloginpage {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    /*padding: 0px 25px;*/
+    border-color: #3a3535;
+    border-radius: 12px;
+    height: 40px ;
+    width: 350px; 
+    margin: 15px;
+}
+
+.formloginpage {
+    position: absolute;
+    top:38%;
+    left:51%;
+}
+
+.mdpoubloginpage {
+    position: absolute;
+    top : 98%;
+    left: 40%;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    text-decoration: none;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.mdpoubloginpage:hover {
+    color: #F6AC0D;
+}
+
+.loginloginpage {
+    position: absolute;
+    top:75%;
+    left:68%;
+    height: 38px;
+    width: 180px;
+    border-radius: 32px;
+    background-color: #69ADFA;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.loginloginpage:hover {
+    background-color: #2980e2;
+    cursor: pointer;
+}
+
+.deco1loginpage {
+    position: absolute;
+    top:5%;
+    left:72%;
+}
+
+.deco2loginpage {
+    position: absolute;
+    top:78%;
+    left:80%;
+}
+
+.linkloginpage {
+    text-decoration: underline;
+    color: #F6AC0D;
+}

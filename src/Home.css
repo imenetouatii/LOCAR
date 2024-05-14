@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+.container2 {
+    position: relative;
+    
+}
+
+.container2 .content {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    z-index: 4;
+    display: block;
+    text-align: center;
+    top: 0;
+    left: 0;
+    font-family: 'Montserrat';
+    
+}
+.container2 .playstore{
+    position:absolute;
+    margin: auto;
+    bottom: 0;
+    top: 0;
+    right: 45%;
+    z-index: 2;
+    bottom: 5%;
+    width: 15%;
+    font-family: 'Montserrat';
+    
+}
+
+.container2 .play{
+    position:absolute;
+    margin: auto;
+    bottom: 0;
+    top: 25%;
+    left: 5%;
+    justify-self:center;
+    font-size: 120%;
+    font-family: 'Montserrat';
+    
+}
+
+.container2 .conte {
+    width:80%; 
+    height: 80%;
+    position: absolute;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+    z-index: 2;
+    display: inline-block;
+    font-family: 'Montserrat';
+    
+    background-color: white;
+    border-radius: 25px;
+}
+
+.container2 .image {
+    position: sticky;
+    height: 100vh;
+    width: 53%;
+    display: block;
+    z-index: 0;
+    top: 0;
+    float: right;
+}
+.conte .trian{
+    height: 100%;
+    
+}
+
+.conte .ima {
+    position: sticky;
+    height: 100%;
+    z-index: 0;
+    border-radius: 25px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    float: right;
+    font-family: 'Montserrat';
+    
+}
+
+.trian .homme {
+    position: absolute;
+    height: 88%;
+    z-index: 1;
+    margin: auto;
+    top: 10%;
+    font-family: 'Montserrat';
+    bottom: 0;
+    left:35%;
+    right: 0;
+}
+
+.titre {
+    width:60%; 
+    height: 60%;
+    position: absolute;
+     margin: auto;
+     top: 0;
+     bottom: 0;
+     font-family: 'Montserrat';
+     left: 0;
+    z-index: 2;
+    display: inline-block;
+    
+}
+
+
+.ecriture {
+    font-size: 240%;
+    float: left;
+    left: 10%;
+    margin-top: -1ch;
+    text-align: left;
+    color:#707070;
+    font-family: 'Montserrat';
+}
+
+.ecriture1 {
+    font-size: 250%;
+    float: left;
+    left: 20%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    font-weight: bold;
+    text-align: left;
+    color:#707070;
+    font-family: 'Montserrat';
+}
+.bouton {
+    text-decoration:none;
+    align-items: center;
+    height: 40px;
+    width: 220px;
+    border-radius: 32px;
+    font-size: 16px;
+    background: linear-gradient(60deg, rgba(105,173,250,1) 0%, rgba(64,124,238,1) 100%);
+    color: white;
+    border: none;
+    cursor : pointer;
+    position:absolute;
+    top: 75%;
+    float: left;
+    font-family: 'Montserrat';
+    left: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    justify-self: center;
+}
+
+.logo{
+    position: relative;
+    left: 5%;
+    float:left;
+    z-index: 10;
+    font-family: 'Montserrat';
+    width: 5%;
+    bottom: 25%;
+    
+    
+}
+
+.bout{
+    font-size: 17px;
+    justify-self: center;
+    text-align: center;
+    color: white;
+    margin-top: 4%;
+}
+
+.log{
+    position:absolute;
+    margin: auto;
+    top: 20px;
+    right: 0;
+    left: 0;
+    height: 50px;
+}
+
+.bottom{
+    position:absolute;
+    margin: auto;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    color: black;
+}
+
+
+.connexion{
+    background-color:white;
+    text-align: center;
+    line-height:250%;
+    border: 1px solid #707070;
+    height: 40px;
+    width: 150px;
+    border-radius: 60px;
+    float: right;
+    margin-right: 2%;
+    margin-left: 20%;
+    cursor: pointer;
+    text-decoration:none;
+}
+
+.conn{
+    font-size: 15px;
+    justify-self: center;
+    margin: auto;
+    color: black;
+    font-family: 'Montserrat';
+}
+
+.acceuil{
+    background-color: Transparent;
+    border: none;
+    height: 50px;
+    width: 100px;
+    margin: auto;
+    cursor: pointer;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    
+    border-radius: 60px ;
+}
+
+.acceuil2{
+    background-color: Transparent;
+    border: none;
+    height: 50px;
+    width: 100px;
+    margin-right: 20%;
+    border-radius: 60px ;
+    font-size: 120%;
+}
+
+.acc{
+    font-size: large;
+    justify-self: center;
+    margin: auto;
+    cursor: pointer;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    font-family: 'Montserrat';
+    font-size: 150%;
+    color: #707070;
+}
+
+
+.acc2{
+    font-size: large;
+    justify-self: center;
+    margin: auto;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    font-family: 'Montserrat';
+    font-size: 160%;
+    color: #707070;
+}
+
+.title{
+    height: 50%;
+    width: 40%;
+    left: 15%;
+    position:absolute;
+    margin: auto;
+    top: 0;
+    bottom: 25%;
+    font-family: 'Montserrat';
+}
+
+@media only screen and (max-width: 960px) {
+    .ecriture {
+        font-size: 140%;
+        font-family: 'Montserrat';
+        float: left;
+        bottom: 20%;
+        text-align: left;
+        position:absolute;
+        color:#707070;
+    }
+
+    .ecriture1 {
+        font-size: 250%;
+        float: left;
+        left: 10%;
+        position:absolute;
+        margin-bottom: 20%;
+        font-weight: bold;
+        bottom: 70%;
+        text-align: left;
+        color:#707070;
+        font-family: 'Montserrat';
+    }
+
+    .connexion{
+        background-color:white;
+        border: 2px solid #707070;
+        height: 50px;
+        width: 100px;
+        font-family: 'Montserrat';
+        border-radius: 60px;
+        float: right;
+        margin-right: 2%;
+        cursor: pointer;
+    }
+    
+    .conn{
+        font-size: 100%;
+        justify-self: center;
+        margin: auto;
+        bottom: 0;
+        font-family: 'Montserrat';
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .container2 .playstore{
+        position:absolute;
+        margin: auto;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        font-family: 'Montserrat';
+        z-index: 2;
+        bottom: 5%;
+        width: 25%;
+        
+    }
+
+    .bout{
+        font-size: large;
+        justify-self: center;
+        margin: auto;
+        bottom: 0;
+        top: 0;
+        font-family: 'Montserrat';
+        right: 0;
+        left: 0;
+        font-size: 70%;
+        color: white;
+        
+    }
+
+    .acceuil{
+        background-color: Transparent;
+        position:relative;
+        border: none;
+        height: 50px;
+        width: 50px;
+        left: 10%;
+        border-radius: 60px ;
+    }
+    
+    .acc{
+        font-size: large;
+        justify-self: center;
+        margin: auto;
+        bottom: 0;
+        top: 0;
+        right: 0;
+        font-family: 'Montserrat';
+        left: 0;
+        cursor: pointer;
+        font-size: 100%;
+        color: #707070;
+    }
+
+    .container2.play{
+        position:absolute;
+        margin: auto;
+        bottom: 0;
+        top: 25%;
+        left: 15%;
+        justify-self:center;
+        font-size: 110%;
+        
+    }
+
+    .trian .homme {
+        position: absolute;
+        height: 88%;
+        z-index: 1;
+        margin: auto;
+        top: 10%;
+        bottom: 0;
+        left:23%;
+        right: 0;
+    }
+
+    .logo{
+        position: absolute;
+        left: 5%;
+        float:left;
+        z-index: 10;
+        font-family: 'Montserrat';
+        width: 8%;
+        
+    }
+  }
